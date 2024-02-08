@@ -223,9 +223,10 @@ main {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    width: 100%;
 }
 
-.carrito-producto {
+.productos-carrito {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -234,6 +235,7 @@ main {
     padding: .5rem;
     padding-right: 1.5rem;
     border-radius: 1rem;
+    
 }
 
 .carrito-producto-imagen {
