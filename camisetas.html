@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusShop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header-mobile">
+            <h1 class="logo">CampusShop</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+        <aside>
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+            <header>
+                <h1 class="logo">CampusShop</h1>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a id="todos" class="boton-menu boton-categoria" href="index.html"><i
+                                class="bi bi-hand-index-thumb-fill"></i> Todos los productos</a>
+                    </li>
+                    <li>
+                        <a id="abrigos" class="boton-menu boton-categoria" href="abrigos.html"><i
+                                class="bi bi-hand-index-thumb"></i>
+                            Abrigos</a>
+                    </li>
+                    <li>
+                        <a id="camisetas" class="boton-menu boton-categoria active" href="camisetas.html"><i
+                                class="bi bi-hand-index-thumb"></i>
+                            Camisetas</a>
+                    </li>
+                    <li>
+                        <a id="pantalones" class="boton-menu boton-categoria" href="pantalones.html"><i
+                                class="bi bi-hand-index-thumb"></i> Pantalones</a>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito" href="./carrito.html">
+                            <i class="bi bi-cart-fill"></i> Carrito <span id="numerito" class="numerito">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© 2024 camper </p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal">Camisetas</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+                <div class="producto">
+                    <img class="product-image" src="https://http2.mlstatic.com/D_NQ_NP_2X_906094-MCO53976036500_022023-F.webp">
+                    <div class="producto-detalles">
+                        <h3>Producto 1</h3>
+                        <p>Camisa de compresion en Licra </p>
+                        <p>Precio: $38000</p>
+                        <button class="agregar-carrito">Agregar</button>
+                    </div>
+                </div>
+                
+                <div class="producto">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_649847-MCO43854241255_102020-F.webp" alt="Producto 2" class="product-image">
+                    <div class="producto-detalles">
+                        <h3>Producto 2</h3>
+                        <p>camiseta tipo Polo</p>
+                        <p>Precio: $26255</p>
+                        <button class="agregar-carrito">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_995623-MCO70722158553_072023-F.webp" alt="Producto 2" class="product-image">
+                    <div class="producto-detalles">
+                        <h3>Producto 3</h3>
+                        <p>Camisa deportiva Crossfit</p>
+                        <p>Precio: $29900</p>
+                        <button class="agregar-carrito">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_2X_776916-MCO72088562654_102023-F.webp" alt="Producto 1" class="product-image">
+                    <div class="producto-detalles">
+                        <h3>Producto 4</h3>
+                        <p>Camisetas Bandas De Rock </p>
+                        <p>Precio: $32850</p>
+                        <button class="agregar-carrito">Agregar</button>
+                    </div>
+                </div>    
+                <div class="producto">
+                        <img src="https://http2.mlstatic.com/D_NQ_NP_2X_968038-MCO53410409233_012023-F.webp" alt="Producto 1" class="product-image">
+                        <div class="producto-detalles">
+                            <h3>Producto 5</h3>
+                            <p>Camiseta Anime Nezuko Kamado</p>
+                            <p>Precio: $29900</p>
+                            <button class="agregar-carrito">Agregar</button>
+                        </div>
+                </div>
+                 
+                    
+                    
+            </div>
+            <!-- Aquí puedes agregar más productos según sea necesario -->
+        </main>
+    </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>
